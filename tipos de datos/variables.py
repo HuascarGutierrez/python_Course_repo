@@ -2,8 +2,8 @@
 nombre = 5
 bienvenida = f"hola {nombre:0.4f} como te encuentras"
 print(bienvenida)
-bienvenida2 = "hola {0} como te encuentras".format(nombre)
-bienvenida2 = "hola {:20.4f} como te encuentras".format(nombre)
+bienvenida2 = "hola {0:30f} como te encuentras".format(nombre)
+bienvenida2 = "hola {0:20.4f} como te encuentras".format(nombre)
 #aqui se utiliza la cantidad de espacios y luego la cantidad de decimales
 print(bienvenida2)
 
